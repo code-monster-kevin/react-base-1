@@ -8,7 +8,7 @@ addLocaleData(zhLocaleData);
 
 class AppIntl extends Component {
   render() {
-    const locale = 'zh';
+    const locale = 'en';
     const messages = translations[locale];
 
     return (
